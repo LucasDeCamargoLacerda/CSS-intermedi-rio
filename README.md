@@ -7,7 +7,9 @@ Este projeto é um portfólio estático desenvolvido com HTML e CSS, com foco em
 Evoluir do básico para um nível intermediário em Front-End, aplicando:
 
 Estrutura semântica com HTML5
+
 Estilização com CSS3
+
 Layout com Flexbox
 Uso de gradientes
 Componentização de elementos
