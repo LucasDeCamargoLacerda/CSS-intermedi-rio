@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+header {
+   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+   color: white;
+   text-align: center;
+   padding:  80px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+header p {
+    font-size:  20px;
+    opacity: 0.9;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    }
+
+section {
+    background-color: white;
+    margin: 30px 0;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+section h2 {
+      font-size: 32px;
+      color: #667eea;
+      margin-bottom: 20px;
+      border-bottom: 3px solid #667eea;
+      padding-bottom: 10px;
+}
+
+.habilidades-lista {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+}
+
+.habilidade {
+      background-color: #667eea;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-size: 16px;
+      font-weight: 500;
+      white-space: nowrap;
+      display: inline-block;
+}
+
+.contatos-info {
+    font-size: 16px;
+    padding: 15px;
+    margin: 15px ;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.contato-item {
+    background-color: #f8f9fa ;
+    padding: 15px ;
+    border-radius: 20px;
+    border-left: 8px solid #764ba2 ;
+}
+
+.contato-item strong {
+    color: #764ba2;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #667eea;
+}
